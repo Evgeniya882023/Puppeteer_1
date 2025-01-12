@@ -1,5 +1,6 @@
 let page;
 jest.setTimeout(500_000);
+
 beforeEach(async () => {
   page = await browser.newPage();
 });
